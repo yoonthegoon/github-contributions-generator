@@ -40,14 +40,14 @@ If you wanted to push 1-4 commits for every weekday in 2024 until and including 
 top-level directory, execute:
 
 ```shell
-touch commit.txt
-git add commit.txt
+touch gcg.txt
+git add gcg.txt
 # run the above only if you've not done this in the current directory before
 gcg -s 2024-01-01
 ```
 
 For each day between the start and end dates, a random number of times between min and max commits, a unique message
-will be written to `commit.txt` and commited. 
+will be written to `gcg.txt` and commited. 
 
 If instead you wanted to do 0-12 commits for every day (including weekends) in 2020 but excluding U.S. federal holidays, you can run:
 

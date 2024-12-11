@@ -53,7 +53,7 @@ fn main() {
         for i in min..=rng.gen_range(min..=max) {
             let key = format!("{cur} {i}");
             print!("\r{key}");
-            fs::write("commit.txt", &key).unwrap();
+            fs::write("gcg.txt", &key).unwrap();
             Command::new("git")
                 .arg("commit")
                 .arg("--date")
